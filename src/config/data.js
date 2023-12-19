@@ -6,7 +6,7 @@ export const blogList = [
     subCategory: ["Agartala", "Food"],
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    authorName: "Bodhisatwa",
+    authorName: "Bodhisatwa Chakraborty",
     authorAvatar: "/assets/images/author.jpg",
     createdAt: "December 19 2023",
     cover: "/assets/images/designer-1.jpg",
@@ -24,7 +24,7 @@ export const blogList = [
     subCategory: ["Agartala", "Food", "Cafe"],
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    authorName: "Bodhisatwa",
+    authorName: "Bodhisatwa Chakraborty",
     authorAvatar: "/assets/images/author.jpg",
     createdAt: "December 19 2023",
     cover: "/assets/images/f67396fc3cfce63a28e07ebb35d974ac.jpg",
@@ -69,6 +69,5 @@ export const blogList = [
   //   authorName: "John Doe",
   //   authorAvatar: "/assets/images/author.jpg",
   //   createdAt: "June 03, 2021",
-  //   cover: "/assets/images/Synthwave-Postmodern.jpg",
   // }
 ];

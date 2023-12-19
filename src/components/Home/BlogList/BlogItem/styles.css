@@ -56,8 +56,14 @@
   margin-right: 0.5rem;
 }
 
+.blogItem-author h6 {
+  font-size: 0.9rem;
+  color: #040404;
+  font-weight: 600;
+}
 .blogItem-author p {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   color: #a9a9a9;
   font-weight: 600;
+  font-style: italic;
 }
