@@ -25,7 +25,7 @@ export default function Carousel({ slides }) {
         }}
       >
         {slides.map((s) => {
-          return <img src={s} />;
+          return <img src={s} alt="Photos" />;
         })}
       </div>
 
@@ -47,7 +47,7 @@ export default function Carousel({ slides }) {
               }}
               key={"circle" + i}
               className={`rounded-full w-5 h-2 cursor-pointer  ${
-                i == current ? "bg-white" : "bg-gray-500"
+                i === current ? "bg-white" : "bg-gray-500"
               }`}
             ></div>
           );

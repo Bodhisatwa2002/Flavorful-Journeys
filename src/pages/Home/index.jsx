@@ -33,23 +33,30 @@ const Home = () => {
   };
 
   return (
-    <div>
-      {/* Page Header */}
-      <Header />
+    <>
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4891993655366729"
+        crossorigin="anonymous"
+      ></script>
+      <div>
+        {/* Page Header */}
+        <Header />
 
-      {/* Search Bar */}
-      <SearchBar
-        value={searchKey}
-        clearSearch={handleClearSearch}
-        formSubmit={handleSearchBar}
-        handleSearchKey={(e) => setSearchKey(e.target.value)}
-      />
+        {/* Search Bar */}
+        <SearchBar
+          value={searchKey}
+          clearSearch={handleClearSearch}
+          formSubmit={handleSearchBar}
+          handleSearchKey={(e) => setSearchKey(e.target.value)}
+        />
 
-      {/* Blog List & Empty View */}
-      {!blogs.length ? <EmptyList /> : <BlogList blogs={blogs} />}
-      <Contact/>
-      <Footer/>
-    </div>
+        {/* Blog List & Empty View */}
+        {!blogs.length ? <EmptyList /> : <BlogList blogs={blogs} />}
+        <Contact />
+        <Footer />
+      </div>
+    </>
   );
 };
 

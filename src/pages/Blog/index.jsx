@@ -26,6 +26,11 @@ const Blog = () => {
 
   return (
     <>
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4891993655366729"
+        crossorigin="anonymous"
+      ></script>
       <Link className="blog-goBack" to="/">
         <span> &#8592;</span> <span>Go Back</span>
       </Link>
