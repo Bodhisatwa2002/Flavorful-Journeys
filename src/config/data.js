@@ -20,7 +20,7 @@ export const blogList = [
   {
     id: 2,
     title: "Cafe Frespresso ",
-    category: "Food",
+    category: "Restaurants",
     subCategory: ["Agartala", "Food", "Cafe"],
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -34,40 +34,100 @@ export const blogList = [
     ],
   },
 
-  // {
-  //   id: 5,
-  //   title: "Loaded BBQ Baked Potatoes",
-  //   category: "cooking",
-  //   subCategory: ["bbq", "food", "lifestyle"],
-  //   description:
-  //     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  //   authorName: "John Doe",
-  //   authorAvatar: "/assets/images/author.jpg",
-  //   createdAt: "June 03, 2021",
-  //   cover: "/assets/images/make-it-personal.jpg",
-  // },
-  // {
-  //   id: 6,
-  //   title: "Beyond the Beach",
-  //   category: "travel",
-  //   subCategory: ["beaches", "sea", "holidays"],
-  //   description:
-  //     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  //   authorName: "John Doe",
-  //   authorAvatar: "/assets/images/author.jpg",
-  //   createdAt: "June 03, 2021",
-  //   cover:
-  //     "/assets/images/Purple-Combination-colors-graphic-design-predictions-1024x576-1024x576.jpg",
-  // },
-  // {
-  //   id: 7,
-  //   title: "Art & Perception",
-  //   category: "art",
-  //   subCategory: ["skill", "design", "passion"],
-  //   description:
-  //     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  //   authorName: "John Doe",
-  //   authorAvatar: "/assets/images/author.jpg",
-  //   createdAt: "June 03, 2021",
-  // }
+  {
+    id: 3,
+    title: "GIGS MUSIC CAFE",
+    category: "Restaurants",
+    subCategory: ["bbq", "food", "lifestyle"],
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    authorName: "John Doe",
+    authorAvatar: "/assets/images/author.jpg",
+    createdAt: "June 03, 2021",
+    cover: "/assets/images/make-it-personal.jpg",
+  },
+  {
+    id: 4,
+    title: "AQUIRALIA CLUB HOUSE",
+    category: "Restaurants",
+    subCategory: ["bbq", "food", "lifestyle"],
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    authorName: "John Doe",
+    authorAvatar: "/assets/images/author.jpg",
+    createdAt: "June 03, 2021",
+    cover: "/assets/images/make-it-personal.jpg",
+  },
+  {
+    id: 5,
+    title: "PINK FLAMINGO",
+    category: "Restaurants",
+    subCategory: ["bbq", "food", "lifestyle"],
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    authorName: "John Doe",
+    authorAvatar: "/assets/images/author.jpg",
+    createdAt: "June 03, 2021",
+    cover: "/assets/images/make-it-personal.jpg",
+  },
+  {
+    id: 6,
+    title: "COFFEE, TEA & ME",
+    category: "Restaurants",
+    subCategory: ["bbq", "food", "lifestyle"],
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    authorName: "John Doe",
+    authorAvatar: "/assets/images/author.jpg",
+    createdAt: "June 03, 2021",
+    cover: "/assets/images/make-it-personal.jpg",
+  },
+  {
+    id: 7,
+    title: "INDI SUTRA",
+    category: "Restaurants",
+    subCategory: ["bbq", "food", "lifestyle"],
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    authorName: "John Doe",
+    authorAvatar: "/assets/images/author.jpg",
+    createdAt: "June 03, 2021",
+    cover: "/assets/images/make-it-personal.jpg",
+  },
+  {
+    id: 8,
+    title: "SNAX OH BITE !!",
+    category: "Restaurants",
+    subCategory: ["bbq", "food", "lifestyle"],
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    authorName: "John Doe",
+    authorAvatar: "/assets/images/author.jpg",
+    createdAt: "June 03, 2021",
+    cover: "/assets/images/make-it-personal.jpg",
+  },
+  {
+    id: 9,
+    title: "SOCIAL CLUB",
+    category: "Restaurants",
+    subCategory: ["bbq", "food", "lifestyle"],
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    authorName: "John Doe",
+    authorAvatar: "/assets/images/author.jpg",
+    createdAt: "June 03, 2021",
+    cover: "/assets/images/make-it-personal.jpg",
+  },
+  {
+    id: 10,
+    title: "PARKLINE",
+    category: "Restaurants",
+    subCategory: ["bbq", "food", "lifestyle"],
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    authorName: "John Doe",
+    authorAvatar: "/assets/images/author.jpg",
+    createdAt: "June 03, 2021",
+    cover: "/assets/images/make-it-personal.jpg",
+  },
 ];
